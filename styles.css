@@ -38,7 +38,9 @@
 #location{
 	display: flex;
 	flex-direction: row;
-	padding:3px
+	padding:3px;
+	cursor: pointer;
+
 }
 #location img{
 	width:20px;
@@ -74,7 +76,9 @@
 	border-top-left-radius: 4px;
 	border-bottom-left-radius: 4px;
 	background-color: #D4D4D4;
-	margin:0
+	margin:0;
+	cursor: pointer;
+
 
 	
 }
@@ -99,7 +103,9 @@
 	margin:0;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
-	padding:0 5px 0 5px
+	padding:0 5px 0 5px;
+	cursor: pointer;
+
 
 	
 }
@@ -120,9 +126,13 @@
 	align-items: center;
 	justify-content: center;
 	padding-left: 4px;
+	cursor: pointer;
+
 }
 #language img{
-	width:20px
+	width:20px;
+	cursor: pointer;
+
 
 }
 .select-option{
@@ -132,7 +142,9 @@
 	font-weight:600 ;
 	padding:0;
 	font-size: 12px;
-	margin:0
+	margin:0;
+	cursor: pointer;
+
 }
 #account-signin{
 	margin-left:20px;
@@ -141,6 +153,8 @@
 	color:white;
 	align-items: left;
 	justify-content: center;
+	cursor: pointer;
+
 }
 
 #account-signin span{
@@ -160,6 +174,8 @@
 	margin-left:15px;
 	padding-left: 5px;
 	padding-right: 5px;
+	cursor: pointer;
+
 }
 
 #returns-orders span{
@@ -177,6 +193,7 @@
 	padding-left: 5px;
 	padding-right: 5px;
 	height:40px;
+	cursor: pointer;
 
 }
 #cart img{

@@ -8,55 +8,83 @@
     <title>Online Shopping site in India: Shop Online for Mobiles, Books, Watches,...</title>
 </head>
 <body>
-    <div id="nav-bar">
-        <div id="nav-left">
-            <div id="icon" class="white-boundary">
-                <a href="index.html"><img src="amazon-logo-1024x683-removebg-preview (1).png" alt=""></a><span id="in" span>.in</span>
+    <div id="amzn-body">
+        <div id="nav-bar">
+            <div id="nav-left">
+                <div id="icon" class="white-boundary">
+                    <a href="index.html"><img src="amazon-logo-1024x683-removebg-preview (1).png" alt=""></a><span id="in" span>.in</span>
+                </div>
+                <div id="location" class="white-boundary">
+                    <img src="location.png" alt="location">
+                    <div>
+                        <span id="deliver-address">Delivering to New Delhi 110003</span>
+                        <br>
+                        <span id="update-location">Update Location</span>
+                    </div>
+                </div>
+
             </div>
-            <div id="location" class="white-boundary">
-                <img src="location.png" alt="location">
-                <div>
-                    <span id="deliver-address">Delivering to New Delhi 110003</span>
-                    <br>
-                    <span id="update-location">Update Location</span>
+            <div id="nav-center">
+                <select name="categories" id="categories">
+                    <option value="all">All</option>
+                    <option value="alexa_skills">Alexa Skills</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="garden&outdoors">Garden and Outdoors</option>
+                </select>
+                <input type="text" placeholder="Search Amazon.in">
+                <div id="search">
+                    <img src="search (1).png" alt="" >
                 </div>
             </div>
-
+            <div id="nav-right">
+                <div id="language" class="white-boundary">
+                    <img src="flag.png" alt="">
+                    <select name="language" id="lang" class="select-option">
+                        <option value="english">EN</option>
+                    </select>
+                </div>
+                <div id="account-signin" class="white-boundary">
+                    <span>Hello, sign in</span>
+                    <select name="accounts" id="accounts" class="select-option">
+                        <option value="account">Accounts & Lists</option>
+                    </select>
+                </div>
+                <div id="returns-orders" class="white-boundary">
+                    Returns
+                    <span>& Orders</span>
+                </div>
+                <div id="cart" class="white-boundary">
+                    <img src="shopping-cart.png" alt="shopping-cart">
+                    <span>Cart</span>
+                </div>
+            </div>
         </div>
-        <div id="nav-center">
-            <select name="categories" id="categories">
-                <option value="all">All</option>
-                <option value="alexa_skills">Alexa Skills</option>
-                <option value="electronics">Electronics</option>
-                <option value="furniture">Furniture</option>
-                <option value="garden&outdoors">Garden and Outdoors</option>
+        <div id="shop-by-category">
+            <div id="all-categories">
+                <img src="menu.png" alt="menu-icon">
+                <span>All</span>
+            </div>
+            <div>Fresh</div>
+            <div>MX Player</div>
+            <div>Sell</div>
+            <div>Best Sellers</div>
+            <div>Today's Deals</div>
+            <div>Mobiles</div>
+            <div>Electronics</div>
+            <div>Home & Kitchen</div>
+            <div>Customer Service</div>
+            <select name="prime" id="prime">
+                <option value="prime">Prime</option>
             </select>
-            <input type="text" placeholder="Search Amazon.in">
-            <div id="search">
-                <img src="search (1).png" alt="" >
-            </div>
+            <div>Amazon Pay</div>
+            <div>New Releases</div>
+            <div>Fashion</div>
+            <div>Car & Motorbike</div>
+            <div>Computers</div>
         </div>
-        <div id="nav-right">
-            <div id="language" class="white-boundary">
-                <img src="flag.png" alt="">
-                <select name="language" id="lang" class="select-option">
-                    <option value="english">EN</option>
-                </select>
-            </div>
-            <div id="account-signin" class="white-boundary">
-                <span>Hello, sign in</span>
-                <select name="accounts" id="accounts" class="select-option">
-                    <option value="account">Accounts & Lists</option>
-                </select>
-            </div>
-            <div id="returns-orders" class="white-boundary">
-                Returns
-                <span>& Orders</span>
-            </div>
-            <div id="cart" class="white-boundary">
-                <img src="shopping-cart.png" alt="shopping-cart">
-                <span>Cart</span>
-            </div>
+        <div id="fr-img-div">
+            <img id="fr-img" src="GW_HERO_PC_1_2x._CB542130280_.jpg" alt="">
         </div>
     </div>
 </body>

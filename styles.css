@@ -119,7 +119,7 @@ body{
 
 	
 }
-#search img{
+#search a img{
 	width:20px;
 	margin:7px;
 	object-fit: contain;

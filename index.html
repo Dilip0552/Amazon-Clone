@@ -32,9 +32,9 @@
                     <option value="furniture">Furniture</option>
                     <option value="garden&outdoors">Garden and Outdoors</option>
                 </select>
-                <input type="text" placeholder="Search Amazon.in">
+                <input type="text" placeholder="Search Amazon.in" id="search-value">
                 <div id="search">
-                    <img src="search (1).png" alt="" >
+                    <a onclick="redirect_page()" id="redirect-link"><img src="search (1).png" alt="" onclick="redirect_page()"></a>
                 </div>
             </div>
             <div id="nav-right">
@@ -292,6 +292,14 @@
         backToTopButton.onclick = function () {
         window.scrollTo({ top: 0, behavior:"smooth" });
 }}
+        function redirect_page(){
+            search_value=document.getElementById("search-value")
+            if(search_value.value.length>0){
+                search_value.value.replace(" ", "+")
+                window.location.href = "https://www.amazon.in/s?k=" + search_value.value
+                }
+            
+        }
     </script>
 </body>
 </html>
